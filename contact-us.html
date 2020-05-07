@@ -93,49 +93,7 @@ tr:nth-child(even) {
     </div>
   </nav> <!-- End Navigation -->
   <br/><br/><br/><r/><br/>
-<div class="container"  id="Contact"> <!--Start Contact Us Container-->
-    <h2 class="text-center mb-4"  style="font-weight: bold;">Contact Us!</h2>    <!-- Contact Us Heading -->
-    <div class="row">           <!--Start Contact Us Row-->
-      <div class="col-md-8">    <!--Start Contact Us 1st Column-->
-        <form action="https://www.sujanpdl.com.np/contact.php" method="POST">
-          <input class="form-control" name="name" placeholder="Name" required /><br />
-          <input class="form-control" name="phone" placeholder="Phone" required  /><br />
-          <input class="form-control" name="email" placeholder="E-mail" required /><br />
-          <textarea class="form-control" name="text" placeholder="Contact us for our privacy policy" style="height:150px;" required ></textarea><br />
-          <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
-        </form>
-                                <script type="text/javascript">
-function ValidatePost()
-{
-  if( document.MainForm.emailid.value == "")
-  {
-    alert( "Please enter correct email ID..." )
-    document.MainForm.emailid.focus() ;
-    return false ;
-  }
-        if( !validateEmail( document.MainForm.emailid.value )){
-    alert( "Please enter correct email ID..." )
-    document.MainForm.emailid.focus() ;
-    return false ;
-        }
-  if( document.MainForm.message.value == "" )
-  {
-    alert( "You missed to enter your message ..." )
-    document.MainForm.message.focus() ;
-    return false ;
-  }
-   alert( "Message sent successfully ..." )
-    document.MainForm.message.focus() ;
-  return true;
-}
-function validateEmail(email){ 
-     var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-     return re.test(email); 
-}
-</script>
-      </div>  <!-- End Contact Us 1st Column-->
-</div>
- </div>
+<div class="powr-form-builder" id="142a6552_1588842502"></div><script src="https://www.powr.io/powr.js?platform=cloudflare"></script>
   
   <Footer class="bg-dark" style="border-top: 3px solid #DC3545; "><!-- Start Footer-->
   <!-- Footer -->
