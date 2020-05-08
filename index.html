@@ -5,12 +5,12 @@
 <script src="/cdn-cgi/apps/head/m70MoZH7wW6sk8kATwJs1IUgcTk.js"></script><script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta name="google-site-verification" content="VEqcKveJLE1HXn6MLwfrDlGLwJwTG-dF3KDC3txYrDg" />
   <meta charset="UTF-8">
-  <title>Total Cases: 102 , Total Recovered: 27 , Active Cases: 75 , Deaths:0 | Corona Update Nepal</title>
+  <title>Total Cases: 105 , Total Recovered: 27 , Active Cases: 78 , Deaths:0 | Corona Update Nepal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Total Cases: 102 , Total Recovered: 27 , Active Cases: 75 , Deaths:0 | Corona Update Nepal . Corona Update Nepal is a website which provides
+   <meta name="description" content="Total Cases: 105 , Total Recovered: 27 , Active Cases: 78 , Deaths:0 | Corona Update Nepal . Corona Update Nepal is a website which provides
 clear and transparent data of Corona Virus Updates with
 using COVID-19 live data tracker"/>
-  <meta property="og:title" content="Total Cases: 102 , Total Recovered: 27 , Active Cases: 75 , Deaths:0 | Corona Update Nepal"/>
+  <meta property="og:title" content="Total Cases: 105 , Total Recovered: 27 , Active Cases: 78 , Deaths:0 | Corona Update Nepal"/>
   <meta property="og:type" content="coronaupdatenepal.home"/>
   <meta property="og:url" content="www.coronaupdatenepal.tk"/>
   <meta property="og:image" content="banner1.jpg"/>
@@ -32,27 +32,46 @@ using COVID-19 live data tracker"/>
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
-
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+">
 <style>
     .responsive {
   width: 100%;
   
   height: auto;
 }
-table {
-  font-family: arial, sans-serif;
+.my-card
+{
+    position:absolute;
+    left:40%;
+    top:-20px;
+    border-radius:50%;
+}
+#coronadata {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
+#coronadata td, #coronadata th {
+  border: 1px solid #ddd;
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+#coronadata tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#coronadata th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
 }
 </style>
   <!-- Single Page Website     -->
@@ -111,24 +130,48 @@ tr:nth-child(even) {
   <header class="jumbotron back-image" style="background-image: url(banner.jpg);">
    
   </header> <!-- End Header Jumbotron -->
-  <!-- Start Services -->
-      <div class="text-center>
-<img src="https://nheicc.gov.np/wp-content/uploads/2020/02/coronaonlineadd-1.jpg" 
-     class="responsive" alt="" >
-      </div>
-  <div class="container text-center border-bottom"  id="Services"> 
-    <h2 style="font-weight: bold;">UPDATES:</h2><br/><br/>
-    <h3>Total Cases: 102</h3>
-    <h3> Recovered: 27</h3>
-    <h3> Death: 0</h3>
-     <h3> Active Case: 75 </h3><br/><br/><br/>
-
-    <h2 style="font-weight: bold;">Notice:</h2>
+<div class="jumbotron" style="margin-top:-50px; ">
+  <h2 class="text-center text-black" style="padding-top: 20px; padding-bottom: 20px;">Case Update:</h2>
+<div class="row w-100">
+        <div class="col-md-3">
+            <div class="card border-info mx-sm-1 p-3">
+                <div class="card border-info shadow text-info p-3 my-card" ><span class="fa fa-check" aria-hidden="true"></span></div>
+                <div class="text-info text-center mt-3"><h4>Confirmed </h4></div>
+                <div class="text-info text-center mt-2"><h1>105</h1></div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-success mx-sm-1 p-3">
+                <div class="card border-warning shadow text-success p-3 my-card"><span class="fa fa-heart" aria-hidden="true"></span></div>
+                <div class="text-success text-center mt-3"><h4>Recovered</h4></div>
+                <div class="text-success text-center mt-2"><h1>27</h1></div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-danger mx-sm-1 p-3">
+                <div class="card border-danger shadow text-danger p-3 my-card" ><span class="fa fa-times" aria-hidden="true"></span></div>
+                <div class="text-danger text-center mt-3"><h4>Death</h4></div>
+                <div class="text-danger text-center mt-2"><h1>0</h1></div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-warning mx-sm-1 p-3">
+                <div class="card border-warning shadow text-warning p-3 my-card" ><span class="fa fa-star" aria-hidden="true"></span></div>
+                <div class="text-warning text-center mt-3"><h4>Active</h4></div>
+                <div class="text-warning text-center mt-2"><h1>78</h1></div>
+            </div>
+        </div>
+        <h2 class="text-center" style="font-weight: bold;">Notice:</h2>
    <br/><br/>
-   <h3 class="text-center text-black " style="font-weight: bold; font-size: 20px;">नेपालगञ्जमा थप एकमा कोरोना,संक्रमितको संख्या १०२ </h3>
-  </div> <!-- End Services -->
-<br/><br/>
-       <div class="text-center text-black">
+   <h3 class="text-center text-black " style="font-weight: bold; font-size: 20px;">उदयपुरमा थप तीनमा कोरोना भाइरस रोगको पुष्टि भएको छ । आजै २ सय ५० स्वाब संकलन गरिएका मध्ये ३० वटा नमुना परीक्षण गर्दा तीन जनामा कोरोना पोजेटिभ देखिएको उच्च श्रोतले जानकारी दिएको छ ।
+
+कोशी अस्पताल विराटनगरमा पिसिआर परीक्षण गर्दा तीनजनामा कोरोना पोजेटिभ देखिएको उच्च श्रोतले जनाएको छ  । यो संगै नेपालमा कोरोना संक्रमितको संख्या १०५ पुगेको छ । 
+</h3>
+     </div>
+</div>
+
+<br/><br/><br/>
+   <div class="text-center text-black">
           <h4> Advertisement:</h4>
      <a href="https://www.ncell.axiata.com/About-Us/CSR/Measles-Rubella-Campaign" target="_blank">
          <img src="https://healthpati.com/public/media/2020_03/81ff76a0bc968c8d8a06fc69d0d5eaec.gif" class="responsive" alt="" ></a>
@@ -144,7 +187,7 @@ tr:nth-child(even) {
  </div>
 <div  style="overflow-x:auto;">
   
- <table>
+ <table id="coronadata" align="Center">
   <tr>
     <th>Districts</th>
     <th>Total Cases</th>
@@ -162,23 +205,23 @@ tr:nth-child(even) {
     <td>0</td>
   </tr>
    <tr>
-    <td>Lalitpur</td>
-    <td>2</td>
-     <td>+1</td>
-    <td>0</td>
+    <td>Bhojpur</td>
     <td>1</td>
+     <td></td>
+    <td>0</td>
+    <td></td>
     <td>1</td>
   </tr>
    <tr>
     <td>Kathmandu</td>
-    <td>3</td>
-     <td></td>
+    <td>5</td>
+     <td>+1</td>
     <td>0</td>
-    <td>3</td>
-    <td>0</td>
+    <td>4</td>
+    <td>1</td>
   </tr>
    <tr>
-    <td>Morang</td>
+    <td>Udaypur</td>
     <td>31</td>
      <td></td>
     <td>0</td>
@@ -187,11 +230,11 @@ tr:nth-child(even) {
   </tr>
    <tr>
     <td>Parsa</td>
-    <td>30</td>
-     <td>+2</td>
+    <td>24</td>
+     <td></td>
     <td>0</td>
     <td>2</td>
-    <td>28</td>
+    <td>22</td>
   </tr>
    <tr>
     <td>Chitwan</td>
@@ -219,11 +262,11 @@ tr:nth-child(even) {
   </tr>
    <tr>
     <td>Kailali</td>
-    <td>5</td>
+    <td><4/td>
      <td></td>
     <td>0</td>
     <td>4</td>
-    <td>1</td>
+    <td>0</td>
   </tr>
        <tr>
     <td>Kapilvastu</td>
@@ -233,13 +276,53 @@ tr:nth-child(even) {
     <td>0</td>
     <td>2</td>
   </tr>
+     <tr>
+    <td>Dhanusa</td>
+    <td>1</td>
+     <td></td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+     <tr>
+    <td>Jhapa</td>
+    <td>2</td>
+     <td></td>
+    <td>0</td>
+    <td>0</td>
+    <td>2</td>
+  </tr>
+     <tr>
+    <td>Kanchanpur</td>
+    <td>1</td>
+     <td></td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+     <tr>
+    <td>Rautahat</td>
+    <td>3</td>
+     <td>+2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>3</td>
+  </tr>
+     <tr>
+    <td>Bara</td>
+    <td>2</td>
+     <td></td>
+    <td>0</td>
+    <td>0</td>
+    <td>2</td>
+  </tr>
       <tr>
     <th>Total</th>
-    <th>102</th>
+    <th>105</th>
     <th>6</th>
     <th>0</th>
     <th>27</th>
-    <th>75</th>
+    <th>78</th>
   </tr>
 </table>
 </div>
@@ -263,7 +346,7 @@ tr:nth-child(even) {
  </div>
 <div  style="overflow-x:auto;">
   
- <table>
+ <table id="coronadata" align="Center">
   <tr>
     <th>States</th>
     <th>Total Cases</th>
@@ -273,10 +356,10 @@ tr:nth-child(even) {
   </tr>
   <tr>
     <td>State no. 1</td>
-    <td>31</td>
+    <td>34</td>
     <td>0</td>
     <td>14</td>
-    <td>17</td>
+    <td>20</td>
   </tr>
    <tr>
     <td>State no. 2</td>
@@ -322,10 +405,10 @@ tr:nth-child(even) {
   </tr>
       <tr>
     <th>Total</th>
-    <th>102</th>
+    <th>105</th>
     <th>0</th>
     <th>27</th>
-    <th>75</th>
+    <th>78</th>
   </tr>
 </table>
 <br/><br/><br/>
